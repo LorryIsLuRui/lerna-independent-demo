@@ -1,11 +1,11 @@
 {
-  "name": "mini-2",
-  "version": "1.1.0",
+  "name": "mix-app",
+  "version": "1.0.2",
   "description": "Now I’m the model of a modern major general / The venerated Virginian veteran whose men are all / Lining up, to put me up on a pedestal / Writin’ letters to relatives / Embellishin’ my elegance and eloquence / But the elephant is in the room / The truth is in ya face when ya hear the British cannons go / BOOM",
   "keywords": [],
   "author": "LorryIsLuRui <534774764@qq.com>",
   "license": "ISC",
-  "main": "lib/mini-2.js",
+  "main": "lib/mix-app.js",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -18,8 +18,8 @@
     "url": "git+https://github.com/LorryIsLuRui/lerna-independent-demo.git"
   },
   "scripts": {
-    "test": "node ./__tests__/mini-2.test.js",
-    "start": "node ./lib/mini-2.js"
+    "test": "node ./__tests__/mix-app.test.js",
+    "start": "node ./lib/mix-app.js"
   },
   "bugs": {
     "url": "https://github.com/LorryIsLuRui/lerna-independent-demo/issues"

@@ -6,7 +6,8 @@
   ],
   "devDependencies": {
     "lerna": "^9.0.0",
-    "nx": "^22.0.2"
+    "nx": "^22.0.2",
+    "mini-1": "@lorryislurui/mini-1"
   },
   "scripts": {
     "bootstrap": "lerna bootstrap",
