@@ -1,0 +1,17 @@
+{
+  "name": "root",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "lerna": "^9.0.0",
+    "nx": "^22.0.2"
+  },
+  "scripts": {
+    "bootstrap": "lerna bootstrap",
+    "start-no-watching": "lerna run start",
+    "start": "npx lerna watch -- npx lerna run start --scope=\\$LERNA_PACKAGE_NAME --include-dependents",
+    "clean": "lerna clean -y"
+  }
+}
