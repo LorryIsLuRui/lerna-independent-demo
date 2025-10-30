@@ -1,6 +1,6 @@
 {
-  "name": "mini-3-test",
-  "version": "1.0.2",
+  "name": "mini-3-test-dependent",
+  "version": "1.0.3",
   "description": "> TODO: description",
   "author": "LorryIsLuRui <534774764@qq.com>",
   "homepage": "https://github.com/LorryIsLuRui/lerna-independent-demo#readme",
@@ -22,5 +22,6 @@
   },
   "bugs": {
     "url": "https://github.com/LorryIsLuRui/lerna-independent-demo/issues"
-  }
+  },
+  "gitHead": "85833fe78be5b24f4d19ba30943090a03723e741"
 }

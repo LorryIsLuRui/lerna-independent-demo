@@ -1,6 +1,6 @@
 {
-  "name": "mini-2",
-  "version": "1.1.1",
+  "name": "mini-2-dependent",
+  "version": "1.1.2",
   "description": "Now I’m the model of a modern major general / The venerated Virginian veteran whose men are all / Lining up, to put me up on a pedestal / Writin’ letters to relatives / Embellishin’ my elegance and eloquence / But the elephant is in the room / The truth is in ya face when ya hear the British cannons go / BOOM",
   "keywords": [],
   "author": "LorryIsLuRui <534774764@qq.com>",
@@ -27,5 +27,6 @@
   "homepage": "https://github.com/LorryIsLuRui/lerna-independent-demo#readme",
   "devDependencies": {
     "mini-1": "file:../mini-1"
-  }
+  },
+  "gitHead": "85833fe78be5b24f4d19ba30943090a03723e741"
 }
