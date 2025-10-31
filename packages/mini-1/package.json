@@ -19,10 +19,10 @@
   },
   "scripts": {
     "test": "node ./__tests__/mini-1.test.js",
-    "start": "node ./lib/mini-1.js"
+    "start": "lerna watch -- lerna run start --scope=$LERNA_PACKAGE_NAME"
   },
   "bugs": {
     "url": "https://github.com/LorryIsLuRui/lerna-independent-demo/issues"
   },
-  "gitHead": "85833fe78be5b24f4d19ba30943090a03723e741"
+  "gitHead": "0fc27c843fbf40fa95de9dfeff40d3006e678421"
 }

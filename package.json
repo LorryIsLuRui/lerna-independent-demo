@@ -6,13 +6,13 @@
   ],
   "devDependencies": {
     "lerna": "^9.0.0",
-    "nx": "^22.0.2",
-    "mini-1": "@lorryislurui/mini-1"
+    "nx": "^22.0.2"
   },
   "scripts": {
     "bootstrap": "lerna bootstrap",
     "start-no-watching": "lerna run start",
-    "start": "npx lerna watch -- npx lerna run start --scope=\\$LERNA_PACKAGE_NAME --include-dependents",
+    "start-workspaces": "npm run start --workspaces",
+    "start": "NX_DAEMON=false lerna watch  --ignore 'node_modules' -- lerna run start --scope=\\$LERNA_PACKAGE_NAME  --include-dependents",
     "clean": "lerna clean -y"
   }
 }
